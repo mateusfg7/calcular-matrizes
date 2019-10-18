@@ -9,4 +9,4 @@ main.py [i] [j]
 
 > j = número de colunas
 
- Altere a equação da linha 10 do arquivo main.py conforme a necessidade. [ padrão i+j ]
+ Altere a equação da linha 15 do arquivo main.py conforme a necessidade. [ padrão i+j ]
