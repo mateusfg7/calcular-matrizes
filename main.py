@@ -1,12 +1,17 @@
-import sys 
-import math as mt
+import sys
 
-i = int(sys.argv[1])
-j = int(sys.argv[2])
-
-#print("1º: {}\n2º: {}".format(type(i), type(j)))
+parametroLinhasI = int(sys.argv[1])
+parametroColunasJ = int(sys.argv[2])
 
 
-for numI in range(1, i+1):
-    for numJ in range(1, j+1):
-        print("{}x{}".format(numI, numJ))
+def calcular(i, j):
+    
+    ## EQUAÇÃO ##
+    return (i + j)
+
+
+for numI in range(1, parametroLinhasI+1):
+    
+    for numJ in range(1, parametroColunasJ+1):
+        
+        print("{}x{}: {}".format(numI, numJ, calcular(numI, numJ)))
