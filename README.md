@@ -14,7 +14,9 @@ main.py [i] [j]
 ### Preview
 
 Branch > master
+
 ![master](preview/master.png)
 
 Branch > matriz_com_lista
+
 ![matriz_com_lista](preview/matriz_com_lista.png)
