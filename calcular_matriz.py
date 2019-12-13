@@ -14,7 +14,19 @@ def calcular(i, j):
     ## EQUAÇÃO ##
     return (i + j)
 
+matriz = []
 
-for numI in range(1, parametroLinhasI+1):
-    for numJ in range(1, parametroColunasJ+1):
-        print("{}x{}: {}".format(numI, numJ, calcular(numI, numJ)))
+for n in range(0, parametroLinhasI):
+    matriz.append([])
+
+for numJ in range(1, parametroColunasJ+1):
+    valorI = 1
+    valorJ = numJ
+    for numI in range(0, parametroLinhasI):
+        valorTotal = calcular(valorI, valorJ)
+        valorI += 1
+        matriz[numI].append(valorTotal)
+
+
+for n in range(0, parametroLinhasI):
+    print(matriz[n]) 
